@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll";
 import logo from "../assets/logo.svg";
 import { HiMenu } from "react-icons/hi";
 import { MdClose } from "react-icons/md";
@@ -14,12 +15,15 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-8 text-lg">
           {["home", "about", "work", "skills", "contact"].map((item) => (
             <li key={`link-${item}`} className="list-none">
-              <a
-                href={`#${item}`}
-                className="capitalize before:block before:w-2 before:h-2 before:mx-auto before:rounded-full  hover:before:bg-[#06b6d4]"
+              {/* <a href={`#${item}`}>{item}</a> */}
+              <Link
+                to={item}
+                duration={300}
+                smooth={true}
+                className="capitalize before:block before:w-2 before:h-2 before:mx-auto before:rounded-full  hover:before:bg-[#06b6d4] cursor-pointer"
               >
                 {item}
-              </a>
+              </Link>
             </li>
           ))}
         </div>

@@ -6,6 +6,7 @@ const NavigationDots = ({ active }) => {
     <div>
       {["home", "about", "work", "skills", "contact"].map((item, index) => (
         <Link
+          key={`link-${item}`}
           to={item}
           smooth={true}
           duration={300}

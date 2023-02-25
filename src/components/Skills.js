@@ -46,21 +46,33 @@ const Skills = () => {
         </div>
         <div className="flex flex-col items-center">
           <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
+            <img src={mongodb} alt="mongodb" width="80%" />
+          </div>
+          <p>mongodb</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
+            <img src={express} alt="express" width="80%" />
+          </div>
+          <p>express</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
             <img src={react} alt="react" width="80%" />
           </div>
           <p>react</p>
         </div>
         <div className="flex flex-col items-center">
           <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
-            <img src={redux} alt="redux" width="80%" />
-          </div>
-          <p>redux</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
             <img src={node} alt="node" width="80%" />
           </div>
           <p>node</p>
+        </div>
+        <div className="flex flex-col items-center">
+          <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
+            <img src={redux} alt="redux" width="80%" />
+          </div>
+          <p>redux</p>
         </div>
         <div className="flex flex-col items-center">
           <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
@@ -79,18 +91,6 @@ const Skills = () => {
             <img src={linux} alt="linux" width="80%" />
           </div>
           <p>linux</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
-            <img src={mongodb} alt="mongodb" width="80%" />
-          </div>
-          <p>mongodb</p>
-        </div>
-        <div className="flex flex-col items-center">
-          <div className="w-16 h-16 rounded-full bg-white shadow-md flex justify-center items-center">
-            <img src={express} alt="express" width="80%" />
-          </div>
-          <p>express</p>
         </div>
       </div>
     </section>

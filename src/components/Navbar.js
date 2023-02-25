@@ -43,13 +43,15 @@ const Navbar = () => {
         <div className="absolute flex flex-col items-center self-end py-6 mt-6 space-y-6 bg-white drop-shadow-md left-6 right-6">
           {["home", "about", "work", "skills", "contact"].map((item) => (
             <li key={`link-${item}`} className="list-none">
-              <a
-                href={`#${item}`}
+              <Link
+                to={item}
+                duration={300}
+                smooth={true}
                 className="capitalize"
                 onClick={() => toggleMenu(!isMenuOpen)}
               >
                 {item}
-              </a>
+              </Link>
             </li>
           ))}
         </div>

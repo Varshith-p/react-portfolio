@@ -14,17 +14,19 @@ const Contact = () => {
       </h2>
       <div className="grid md:grid-cols-2 items-center">
         <div className="flex flex-col gap-10 items-center">
-          <div className="w-72 md:w-80 flex justify-start items-center p-3 bg-sky-100 rounded-md">
+          <div className="w-64 md:w-80 flex justify-start items-center p-3 bg-sky-100 rounded-md">
             <div className="w-12">
               <img src={mobile} alt="mobile" />
             </div>
             <p className="pl-2">+91 836 776 8266</p>
           </div>
-          <div className="w-72 md:w-80 flex items-center p-3 bg-pink-100 rounded-md">
-            <div className="w-12">
+          <div className="w-64 h-20 md:w-80 flex items-center p-3 bg-pink-100 rounded-md">
+            <div className="w-10">
               <img src={email} alt="email" />
             </div>
-            <p className="flex-1 text-center">varshithpuligadda@gmail.com</p>
+            <p className="flex-1 text-sm text-center md:text-lg">
+              varshithpuligadda@gmail.com
+            </p>
           </div>
         </div>
         <form
@@ -39,7 +41,7 @@ const Contact = () => {
             id="name"
             placeholder="Your Name"
             required
-            className="bg-sky-100 h-14 w-72 md:w-80 p-3 my-4 rounded-md text-black"
+            className="bg-sky-100 h-14 w-64 md:w-80 p-3 my-4 rounded-md text-black"
           />
           <input
             type="email"
@@ -47,7 +49,7 @@ const Contact = () => {
             id="email"
             placeholder="Your Email"
             required
-            className="bg-sky-100 h-14 w-72 md:w-80 p-3 my-4 rounded-md"
+            className="bg-sky-100 h-14 w-64 md:w-80 p-3 my-4 rounded-md"
           />
           <textarea
             name="message"
@@ -55,7 +57,7 @@ const Contact = () => {
             rows="4"
             placeholder="Your message"
             required
-            className="bg-sky-100 rounded-md w-72 my-4 md:w-80 pt-3 pl-2"
+            className="bg-sky-100 rounded-md w-64 my-4 md:w-80 pt-3 pl-2"
           ></textarea>
           <button
             type="submit"

@@ -20,7 +20,7 @@ const Navbar = () => {
                 to={item}
                 duration={300}
                 smooth={true}
-                className="capitalize before:block before:w-2 before:h-2 before:mx-auto before:rounded-full  hover:before:bg-[#06b6d4] cursor-pointer"
+                className="capitalize before:block before:w-2 before:h-2 before:mx-auto before:rounded-full  hover:before:bg-black cursor-pointer"
               >
                 {item}
               </Link>

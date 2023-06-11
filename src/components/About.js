@@ -4,7 +4,7 @@ import Wrapper from "./Wrapper";
 const About = () => {
   return (
     <section className="p-3 flex-1 justify-center mt-6 min-h-full">
-      <h1 className="text-4xl md:text-8xl font-medium md:ml-10 pb-4 text-[#06b6d4]">
+      <h1 className="text-4xl md:text-8xl font-medium md:ml-10 pb-4 text-[#0f172a]">
         About me
       </h1>
       <p className="text-lg p-2 md:w-4/5 md:ml-10 md:p-7">

@@ -3,7 +3,7 @@ import { Navbar, Header, About, Work, Skills, Contact } from "./components";
 
 const App = () => {
   return (
-    <div className="container mx-auto">
+    <div className="mx-auto">
       <Navbar />
       <Header />
       <About />

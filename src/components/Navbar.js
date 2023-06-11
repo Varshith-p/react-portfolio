@@ -7,12 +7,12 @@ import { MdClose } from "react-icons/md";
 const Navbar = () => {
   const [isMenuOpen, toggleMenu] = useState(false);
   return (
-    <nav className="relative p-6">
+    <header className="relative p-6">
       <div className="flex items-center justify-between">
         <div className="pt-2">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="portfolio logo" />
         </div>
-        <div className="hidden md:flex space-x-8 text-lg">
+        <nav className="hidden md:flex space-x-8 text-lg">
           {["home", "about", "work", "skills", "contact"].map((item) => (
             <li key={`link-${item}`} className="list-none">
               {/* <a href={`#${item}`}>{item}</a> */}
@@ -26,7 +26,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-        </div>
+        </nav>
         {!isMenuOpen ? (
           <HiMenu
             className="pt-2 text-3xl md:hidden"
@@ -40,7 +40,7 @@ const Navbar = () => {
         )}
       </div>
       <div className={(isMenuOpen ? "block" : "hidden") + " md:hidden"}>
-        <div className="absolute flex flex-col items-center self-end py-6 mt-6 space-y-6 bg-white drop-shadow-md left-6 right-6">
+        <nav className="absolute flex flex-col items-center self-end py-6 mt-6 space-y-6 bg-white drop-shadow-md left-6 right-6">
           {["home", "about", "work", "skills", "contact"].map((item) => (
             <li key={`link-${item}`} className="list-none">
               <Link
@@ -54,9 +54,9 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-        </div>
+        </nav>
       </div>
-    </nav>
+    </header>
   );
 };
 

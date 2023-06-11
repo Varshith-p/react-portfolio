@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Varshith",
+  "name": "Varshith Puligadda - Full Stack Web Developer",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,5 +21,30 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "description": "Welcome to my portfolio! I'm Varshith Puligadda, a skilled Full Stack Web Developer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). With a passion for creating powerful and dynamic web applications, I showcase my expertise and projects here. Explore my portfolio to discover my range of skills, from front-end development using React and JavaScript to back-end development with Node.js and Express. I'm dedicated to crafting high-quality, scalable, and user-friendly solutions. Let's connect and bring your ideas to life!",
+  "categories": ["Web Development", "Full Stack Developer", "MERN Stack"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "type": "image/png",
+      "sizes": "1080x720",
+      "purpose": "any"
+    },
+    {
+      "src": "screenshot2.png",
+      "type": "image/png",
+      "sizes": "1080x720",
+      "purpose": "any"
+    }
+  ],
+  "tags": ["Varshith Puligadda", "Varshith", "Puligadda", "Web Developer", "Portfolio", "Projects", "Skills", "MERN Stack"],
+  "lang": "en",
+  "dir": "ltr",
+  "related_applications": [
+    {
+      "platform": "web"
+    }
+  ],
+  "prefer_related_applications": false
 }
